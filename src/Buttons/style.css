@@ -1,0 +1,18 @@
+.list__button {
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    transition: 200ms;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.list__button:hover {
+    color: hsl(180, 100%, 35%);
+    transition: 100ms;
+}
+
+.list__button:disabled {
+    color: grey;
+}

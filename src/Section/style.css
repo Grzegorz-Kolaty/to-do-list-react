@@ -1,0 +1,22 @@
+.section__title {
+    flex-grow: 1;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.section__header {
+    display: flex;
+    flex-grow: 1;
+    border-bottom: solid 3px #eaeaea;
+    padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        flex-direction: column;
+    }
+}
