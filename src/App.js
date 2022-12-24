@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
