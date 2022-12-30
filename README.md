@@ -2,7 +2,7 @@
 
 ## 💪 To do list - how to use❔
 This website has only one specific function, look:
-👆 https://grzegorz-kolaty.github.io/to-do-list/ 👆
+👆 https://grzegorz-kolaty.github.io/to-do-list-react/ 👆
 
 <img src="public/images/how_to_use.gif" alt="howToUse" width="600"/>
 
