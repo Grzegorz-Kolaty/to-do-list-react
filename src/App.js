@@ -8,7 +8,7 @@ import Container from "./Container";
 
 const tasks = [
   { id: 1, content: "przejść na React", done: true },
-  { id: 2, content: "zjesc obiad", done: false },
+  { id: 2, content: "zjesc kolację", done: false },
 ]
 
 let tasksHidingSwitch = false;
