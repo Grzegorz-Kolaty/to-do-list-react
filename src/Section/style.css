@@ -2,7 +2,7 @@
     flex-grow: 1;
 }
 
-.headings {
+.section {
     display: flex;
     flex-direction: column;
     background-color: white;
