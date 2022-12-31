@@ -59,7 +59,8 @@
     background-color: green;
     color: green;
     border: none;
-    padding: 10px;
+    width: 30px;
+    height: 30px;
     transition: 200ms;
 }
 
@@ -69,18 +70,18 @@
 }
 
 .list__checkButton--true {
-    background-color: green;
+    font-size: medium;
     color: white;
-    border: none;
-    padding: 10px;
     transition: 200ms;
 }
 
 .list__removeButton {
+    font-size: medium;
     background-color: red;
     color: white;
     border: none;
-    padding: 10px;
+    width: 30px;
+    height: 30px;
     transition: 200ms;
 }
 
