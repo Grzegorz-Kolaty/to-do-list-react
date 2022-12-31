@@ -1,10 +1,9 @@
-import React from "react";
 import "./style.css";
 
 const Buttons = ({ tasks, tasksHidingSwitch }) => (
-  <div className={`buttons`}>
+  <div className="buttons">
     {tasks.length > 0 && (
-      <React.Fragment>
+      <>
         <button className={`list__button`}>
           {tasksHidingSwitch ? "Pokaż" : "Ukryj"} ukończone
         </button>
@@ -14,7 +13,7 @@ const Buttons = ({ tasks, tasksHidingSwitch }) => (
         >
           Ukończ wszystkie
         </button>
-      </React.Fragment>
+      </>
     )}
   </div>
 );
