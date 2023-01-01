@@ -21,7 +21,6 @@ const Tasks = ({ tasks, tasksHidingSwitch }) => (
           {task.content} </span>
 
         <button className={`list__removeButton`}>🗑</button>
-
       </li>
     ))}
   </ul>

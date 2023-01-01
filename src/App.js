@@ -1,33 +1,14 @@
-import Form from "./Form";
-import Tasks from "./Tasks";
-import Buttons from "./Buttons";
-import Section from "./Section";
-import Header from "./Header";
 import Container from "./Container";
 
-const tasks = [
-  { id: 1, content: "przejść na React", done: true },
-  { id: 2, content: "zjesc kolację", done: false },
-]
-
-let tasksHidingSwitch = false;
-
 function App() {
+  const [count, setCount] = React.useState(0);
+
   return (
     <Container>
-      <Header title="Lista zadań React" />
-      <Section
-        title="Dodaj nowe zadanie"
-        body={<Form />}
-      />
-
-      <Section
-        title="Lista zadań"
-        body={<Tasks tasks={tasks} tasksHidingSwitch={tasksHidingSwitch} />}
-        extraHeaderContent={<Buttons tasks={tasks} tasksHidingSwitch={tasksHidingSwitch} />}
-      />
+      <p>Licznik: {count}</p>
+      <button onClick={() => setCount(count + 1)}>+1</button>
     </Container>
-  )
+  );
 }
 
 export default App;
