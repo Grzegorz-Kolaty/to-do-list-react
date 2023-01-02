@@ -20,7 +20,7 @@ function App() {
 
   const removeTask = (id) => {
     setTasks(tasks => tasks.filter(task => task.id !== id));
-  }
+  };
 
   const toggleTaskDone = (id) => {
     setTasks(tasks => tasks.map(task => {
@@ -29,7 +29,14 @@ function App() {
       }
       return task;
     }));
-  }
+  };
+
+  const setAllDone = () => {
+    setTasks(tasks => tasks.map(task => ({
+      ...task,
+      done: true
+    })));
+  };
 
   return (
     <Container>
@@ -54,11 +61,12 @@ function App() {
             tasks={tasks}
             hideDone={hideDone}
             toggleHideDone={toggleHideDone}
+            setAllDone={setAllDone}
           />
         }
       />
     </Container>
   )
-}
+};
 
 export default App;
