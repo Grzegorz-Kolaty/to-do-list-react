@@ -24,7 +24,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
         </span>
 
         <button
-          className={`list__removeButton`}
+          className="list__removeButton"
           onClick={() => removeTask(task.id)}
         >🗑</button>
       </li>
