@@ -3,5 +3,5 @@
     padding: 50px;
     max-width: 900px;
     margin: 0 auto;
-    word-break: break-word;
+    word-break: break-all;
 }
