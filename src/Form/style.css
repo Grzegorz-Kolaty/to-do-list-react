@@ -8,29 +8,22 @@
 }
 
 .form__input {
-    border: 3px solid #eaeaea;
-    transition: 100ms;
+    border: 2px solid #eaeaea;
+    transition: 200ms;
     flex-grow: 1;
     padding: 15px;
-}
-
-.form__input:focus {
-    transition: 100ms;
-    transform: scale(103%);
 }
 
 .form__button {
     background-color: teal;
     color: white;
     border: none;
-    transition: 100ms;
-    font-size: large;
-    font-weight: 700;
+    transition: 200ms;
     padding: 15px;
 }
 
 .form__button:hover {
-    transition: 100ms;
+    transition: 200ms;
     transform: scale(105%);
     background-color: hsl(180, 100%, 30%);
 }
