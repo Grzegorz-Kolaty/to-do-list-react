@@ -12,6 +12,7 @@
     transition: 200ms;
     align-items: center;
     margin: 10px;
+    font-weight: 400;
 }
 
 .list__button:hover {
@@ -46,13 +47,12 @@
 }
 
 .list__item:hover {
-    transform: scale(101%);
     transition: 200ms;
 }
 
 .list__item--done {
     text-decoration: line-through;
-    text-decoration-thickness: 2.5px;
+    text-decoration-thickness: 2px;
 }
 
 .list__checkButton {
@@ -70,13 +70,11 @@
 }
 
 .list__checkButton--true {
-    font-size: medium;
     color: white;
     transition: 200ms;
 }
 
 .list__removeButton {
-    font-size: medium;
     background-color: red;
     color: white;
     border: none;
